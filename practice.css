@@ -1,0 +1,23 @@
+/*.aboutMe{
+	height:100px;
+	width: 100px;
+}*/
+
+.bod1{
+	/*border: 1px solid grey;*/
+	height: 90px;
+	border-bottom: 1px solid #AEADAD;
+}
+
+/*.aboutMeHeader{
+	border: 1px solid grey;
+	height: 90px;
+}*/
+
+.aboutMeHeader h1{
+	margin-top: 40px;
+}
+
+.bod2{
+	/*border: 1px solid grey;*/
+}

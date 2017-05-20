@@ -1,0 +1,124 @@
+ body{
+ 	background-image: url(images/bodypic.png);
+ }
+.myName .navbar-brand{
+	height: 100%;
+	width: 200px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+}
+
+.bottom{
+	border-bottom: 1.2px solid #cccccc;
+	border-top: none;
+	/*font-size: 20px;*/
+}
+
+
+.bod1{
+	/*border: 1px solid grey;*/
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.bod2{
+	/*border: 1px solid red;*/
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.bod3{
+	border: 1px solid blue;
+}
+
+.aboutBox{
+	/*width:  100%;*/
+	height: 400px;
+	background-color: white;
+	padding-top:15px;
+	/*margin: 0 auto 0 auto;*/
+}
+
+.connectBox{
+	width:270px;
+	height: 150px;
+	background-color: white;
+	padding-top: 15px;
+	/*margin-right: 0px*/
+	/*padding-right: 0px;*/
+	margin:0 auto;
+}
+
+.aboutHeader1{
+	width:90%;
+	height: 35px;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #cccccc;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.aboutHeader1 h3{
+	margin-top: 0px;
+	color: #4aaaa5;
+}
+
+
+.connectHeader{
+	width:80%;
+	height: 35px;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #cccccc;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+
+.connectHeader h3{
+	margin-top: 0px;
+	color: #4aaaa5;
+}
+
+.border{
+	height: 40px;
+	border: 1px solid black;
+}
+
+.title{
+	text-align: left;
+}
+
+.connectImages{
+	text-align: center;
+	margin-top: 6%;
+}
+
+.connectImages a{
+	text-decoration: none;
+}
+
+.github{
+	height: 55px;
+	width: 55px;
+	margin-right: 5px;
+}
+
+.linkedIn{
+	height: 55px;
+	width: 55px;
+	margin-right: 5px;
+}
+
+.stackoverflow{
+	height: 55px;
+	width: 55px;
+}
+
+.footer{
+	background-color:#666666;
+	height: 100px;
+	text-align: center;
+	color: white;
+}

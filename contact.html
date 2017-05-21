@@ -46,7 +46,7 @@
 
     <div class="container">
         <div class="row">
-            <div class= "col-md-7 col-xs-12 bod1">    
+            <div class= "col-md-8 col-sm-12 bod1">    
                 <div class= "aboutBox">
 
                    <!--  about header with no nested row -->
@@ -56,22 +56,25 @@
                         </div>
                     </div>
 
-                    <!-- putting contents of about box into it's own grid system -->
-                    <!-- <div class= "row">
-
-                        <div class= "col-xs-1 border">
-                            
+                    <form>
+                        <div class="form-group">
+                            <label for= "fullName">Name</label>
+                            <input type="text" class="form-control" name="fullName" placeholder="Full Name">
                         </div>
 
-                        <div class= "col-md-10 aboutHeader">
-                            <div class="title"><h3> About Me </h3></div>
+                        <div class="form-group">
+                            <label for="email" >Email</label>
+                            <input type="text" class="form-control" name="email" placeholder="example@gmail.com">
                         </div>
 
-                        <div class= "col-xs-1 border">
-                            
+                        <div class="form-group">
+                            <label for="message" >Message</label>
+                            <textarea name="message" class="form-control" rows="10" cols="60"></textarea>
+
                         </div>
-                    </div> -->
-                    
+
+                        <input type="submit" value="submit" class="submit"></input>
+                    </form> 
                 </div>
             </div>
 
@@ -102,12 +105,15 @@
                 </div>
 
             </div>
-
-            <div class="col-xs-1 bod3">
-                
-            </div>
         </div>
     </div>
+
+    <footer class="row">
+        <div class="col-xs-12 footer">
+            © Copyright 2017 Abdul Khan 
+        </div>
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>

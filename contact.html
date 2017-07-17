@@ -1,126 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
     <title>Bootstrap DemoButtons</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
-
-    <nav class= "navbar navbar-default bottom">
+    <nav class="navbar navbar-default bottom">
         <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
-            <div class= "myName">
-                <div class="navbar-brand">Abdul Khan</div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="myName">
+                    <div class="navbar-brand">Abdul Khan</div>
+                </div>
             </div>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
     </nav>
-
     <div class="container">
         <div class="row">
-            <div class= "col-md-8 col-sm-12 bod1">    
-                <div class= "aboutBox">
-
-                   <!--  about header with no nested row -->
-                    <div class= "aboutHeader1">
+            <div class="col-md-8 col-sm-12 bod1">
+                <div class="aboutBox">
+                    <!--  about header with no nested row -->
+                    <div class="aboutHeader1">
                         <div>
                             <h2>Contact Me</h2>
                         </div>
                     </div>
-
                     <form>
                         <div class="form-group">
-                            <label for= "fullName">Name</label>
+                            <label for="fullName">Name</label>
                             <input type="text" class="form-control" name="fullName" placeholder="Full Name">
                         </div>
-
                         <div class="form-group">
-                            <label for="email" >Email</label>
+                            <label for="email">Email</label>
                             <input type="text" class="form-control" name="email" placeholder="example@gmail.com">
                         </div>
-
                         <div class="form-group">
-                            <label for="message" >Message</label>
+                            <label for="message">Message</label>
                             <textarea name="message" class="form-control" rows="10" cols="60"></textarea>
-
                         </div>
-
                         <input type="submit" value="submit" class="submit"></input>
-                    </form> 
+                    </form>
                 </div>
             </div>
-
             <!-- column for the connect box -->
-            <div class= "col-md-4 col-xs-12 bod2" >
+            <div class="col-md-4 col-xs-12 bod2">
                 <div class="connectBox">
-
-                     <!-- connect header with no nested row -->
-                     <div class="connectHeader">
-                         <h3>Connect With Me</h3>
-                     </div>
-
-                     <div class= "connectImages">
-                         <a href="https://github.com/yabdabs">
+                    <!-- connect header with no nested row -->
+                    <div class="connectHeader">
+                        <h3>Connect With Me</h3>
+                    </div>
+                    <div class="connectImages">
+                        <a href="https://github.com/yabdabs">
                             <img src="images/github2.png" class="github">
                         </a>
-                    
                         <!-- linkedIn link -->
                         <a href="https://www.linkedin.com/in/abdul-khan-4a527813b/">
                             <img src="images/linkedin.jpg" alt="linked In" class="linkedIn">
                         </a>
-                        
                         <!-- stackoverflow link -->
                         <a href="https://stackoverflow.com/users/7839865/abdul-khan?tab=profile">
                             <img src="images/stackoverflow2.png" class="stackoverflow">
                         </a>
-                     </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-
     <footer class="row">
         <div class="col-xs-12 footer">
-            © Copyright 2017 Abdul Khan 
+            © Copyright 2017 Abdul Khan
         </div>
     </footer>
-
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    
 </body>
+
 </html>

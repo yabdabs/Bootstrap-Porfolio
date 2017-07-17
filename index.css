@@ -1,162 +1,160 @@
- body{
- 	background-image: url(images/bodypic.png);
- 	margin-bottom:100px;
+ body {
+     background-image: url(images/bodypic.png);
+     margin-bottom: 100px;
  }
 
- html,body{
- 	height: 100%;
+ html,
+ body {
+     height: 100%;
  }
- 
-.myName .navbar-brand{
-	height: 100%;
-	width: 200px;
-	background: #4aaaa5;
-	text-align: center;
-	color: white;
-}
 
-.bottom{
-	border-bottom: 1.2px solid #cccccc;
-	border-top: none;
-	/*font-size: 20px;*/
-}
+ .myName .navbar-brand {
+     height: 100%;
+     width: 200px;
+     background: #4aaaa5;
+     text-align: center;
+     color: white;
+ }
 
-.bod1{
-	/*border: 1px solid grey;*/
-	padding-left: 0;
-	padding-right: 0;
-}
+ .bottom {
+     border-bottom: 1.2px solid #cccccc;
+     border-top: none;
+     /*font-size: 20px;*/
+ }
 
-.bod2{
-	/*border: 1px solid red;*/
-	padding-left: 0px;
-	padding-right: 0px;
-	/*padding-left: 20px;*/
-}
+ .bod1 {
+     /*border: 1px solid grey;*/
+     padding-left: 0;
+     padding-right: 0;
+ }
 
-.aboutBox{
-	margin-right:20px;
-	background-color: white;
-	padding-top:5px;
-	padding-left: 20px;
-	padding-right: 15px;
-	padding-bottom: 20px;
-	margin-bottom: 45px;
-}
+ .bod2 {
+     /*border: 1px solid red;*/
+     padding-left: 0px;
+     padding-right: 0px;
+     /*padding-left: 20px;*/
+ }
 
-.connectBox{
-	/*width:270px;*/
-	/*height: 150px;*/
-	background-color: white;
-	padding-top: 15px;
-	margin:0 auto;
-	margin-right: 20px;
-	margin-bottom: 50px;
-	/*border: 1px solid black;*/
-}
+ .aboutBox {
+     margin-right: 20px;
+     background-color: white;
+     padding-top: 5px;
+     padding-left: 20px;
+     padding-right: 15px;
+     padding-bottom: 20px;
+     margin-bottom: 45px;
+ }
 
-.aboutHeader1{
-	width:100%;
-	height: 35px;
-	/*border: 1px solid black;*/
-	border-bottom: 1px solid #cccccc;
-	margin: 0 auto;
-	text-align: left;
-	margin-bottom: 15px;
-}
+ .connectBox {
+     /*width:270px;*/
+     /*height: 150px;*/
+     background-color: white;
+     padding-top: 15px;
+     margin: 0 auto;
+     margin-right: 20px;
+     margin-bottom: 50px;
+     /*border: 1px solid black;*/
+ }
 
-.aboutHeader1 h2{
-	/*margin-top: 0px;*/
-	color: #4aaaa5;
-}
+ .aboutHeader1 {
+     width: 100%;
+     height: 35px;
+     /*border: 1px solid black;*/
+     border-bottom: 1px solid #cccccc;
+     margin: 0 auto;
+     text-align: left;
+     margin-bottom: 15px;
+ }
 
-.connectHeader{
-	width:85%;
-	height: 35px;
-	/*border: 1px solid black;*/
-	border-bottom: 1px solid #cccccc;
-	margin: 0 auto;
-	text-align: left;
-}
+ .aboutHeader1 h2 {
+     /*margin-top: 0px;*/
+     color: #4aaaa5;
+ }
 
-.connectHeader h3{
-	margin-top: 0px;
-	color: #4aaaa5;
-}
+ .connectHeader {
+     width: 85%;
+     height: 35px;
+     /*border: 1px solid black;*/
+     border-bottom: 1px solid #cccccc;
+     margin: 0 auto;
+     text-align: left;
+ }
 
-.border{
-	height: 40px;
-	border: 1px solid black;
-}
+ .connectHeader h3 {
+     margin-top: 0px;
+     color: #4aaaa5;
+ }
 
-.title{
-	text-align: left;
-}
+ .border {
+     height: 40px;
+     border: 1px solid black;
+ }
 
-.connectImages{
-	text-align: center;
-	padding-top: 4%;
-	padding-bottom: 4%;
-}
+ .title {
+     text-align: left;
+ }
 
-.connectImages a{
-	text-decoration: none;
-}
+ .connectImages {
+     text-align: center;
+     padding-top: 4%;
+     padding-bottom: 4%;
+ }
 
-.github{
-	height: 55px;
-	width: 55px;
-	margin-right: 5px;
-}
+ .connectImages a {
+     text-decoration: none;
+ }
 
-.linkedIn{
-	height: 55px;
-	width: 55px;
-	margin-right: 5px;
-}
+ .github {
+     height: 55px;
+     width: 55px;
+     margin-right: 5px;
+ }
 
-.stackoverflow{
-	height: 55px;
-	width: 55px;
-}
+ .linkedIn {
+     height: 55px;
+     width: 55px;
+     margin-right: 5px;
+ }
 
-.footer{
-	position: fixed;
-	bottom: 0px;
-	background-color:#666666;
-	height: 60px;
-	text-align: center;
-	left: 0;
-	right:0;
-	color: white;
-	border-top: 5px solid #4aaaa5;
+ .stackoverflow {
+     height: 55px;
+     width: 55px;
+ }
 
-}
+ .footer {
+     position: fixed;
+     bottom: 0px;
+     background-color: #666666;
+     height: 60px;
+     text-align: center;
+     left: 0;
+     right: 0;
+     color: white;
+     border-top: 5px solid #4aaaa5;
+ }
 
-.aboutBody img{
-	height: 200px;
-	width: 200px;
-	display: inline;
-	float: left;
-	padding-top: 7px;
-	padding-right: 10px;
-}
+ .aboutBody img {
+     height: 200px;
+     width: 200px;
+     display: inline;
+     float: left;
+     padding-top: 7px;
+     padding-right: 10px;
+ }
 
-.aboutBody p{
-	line-height: 2.5;
-}
+ .aboutBody p {
+     line-height: 2.5;
+ }
 
-.submit{
-	background-color: #4aaaa5;
-	border: none;
-	color: white;
-	height: 25px;
-	width: 80px;
-}
+ .submit {
+     background-color: #4aaaa5;
+     border: none;
+     color: white;
+     height: 25px;
+     width: 80px;
+ }
 
-.projImage{
-	/*position: relative;*/
-	text-align: center;
-
-}
-
+ .projImage {
+     /*position: relative;*/
+     text-align: center;
+ }
